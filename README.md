@@ -65,6 +65,8 @@ python main.py --model resnet18 --ckpt 'path/' --data_root './data/' --weight_bi
 - [ ] Quantization supported by `PyTorch >= 1.7`
 - [ ] Mixed-/Arbitrary- precision quantization
 
+Note: This code is temporarily for reference and we will upload a improved version in the future.
+
 ## Citation
 
 ```bash
