@@ -26,7 +26,7 @@ class BasicBlock(nn.Module):
         out = self.relu(self.bn1(self.conv1(x)))
         out = self.bn2(self.conv2(out))
         out += self.shortcut(x)
-        out = nn.ReLU(out)
+        out = self.relu(out)
         return out
 
 
